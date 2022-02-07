@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 0 50px;
 }
 
 .App-logo {
@@ -26,6 +27,44 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.search-bar {
+    margin: 10px 0 20px;
+}
+
+a {
+  color: red !important;
+}
+
+.content {
+  text-align: start;
+  margin-left: 80px;
+}
+
+#header {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: start;
+}
+
+.App section {
+  display: flex;
+}
+
+.contentDiv {
+  width: 50%;
+}
+
+.quantityField input {
+  width: 70px;
 }
 
 @keyframes App-logo-spin {

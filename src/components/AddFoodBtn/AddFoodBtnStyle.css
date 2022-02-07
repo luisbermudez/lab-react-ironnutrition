@@ -1,0 +1,12 @@
+.addFoodBtn {
+    margin: 0;
+    background-color: rgb(62, 142, 208) !important;
+    color: white !important;
+    border: none !important;
+    font-weight: 600;
+}
+
+.modal-card-body {
+    display: flex;
+    flex-direction: column;
+}
